@@ -1,0 +1,1 @@
+curl -XPOST -H "Content-Type: application/x-ndjson" http://123.207.92.56:9200/poetry/poetry/_bulk --data-binary @../elastic-bulk-poetry/bulk.poetry.json
