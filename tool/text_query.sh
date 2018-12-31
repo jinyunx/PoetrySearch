@@ -1,1 +1,1 @@
-curl -XPOST  -H 'Content-Type:application/json' http://123.207.92.56:9200/poetry/poetry/_search -d '{"query": {"match" : {"paragraphs" : "山"}}}'
+curl -XPOST  -H 'Content-Type:application/json' http://127.0.0.1:9200/poetry/poetry/_search -d '{"query": {"match" : {"paragraphs" : "山"}}}'
